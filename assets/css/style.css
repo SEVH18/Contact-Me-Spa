@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+/* CONTENEDOR PRINCIPAL */
+
+.container-flex{
+    display: flex;
+    /* border: 1px solid aqua; */
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* SECCIÓN MENSAJERÍA */
+
+.flex-izq{
+    border: 1px solid #BEC1BB;
+    flex-basis: 28%;
+}
+
+.flex-izq img{
+    border-radius: 100%;
+}
+/* DATOS DEL USUARIO */
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #BEC1BB;
+    height: 4em;
+
+}
+
+.card img {
+    width: 18%;
+}
+
+.card-izq{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    /* border: 1px solid red; */
+    flex-basis: 70%;
+    margin-left: 10%;
+}
+
+.text{
+    text-align: start;
+   /*  border: 1px solid violet; */
+    margin-left: 5%;
+}
+.usuario{
+    font-weight:402;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.status{
+   font-size:x-small;
+   color: #BEC1BB;
+   font-size: 11px;
+}
+
+.card-der{
+    display: flex;
+    justify-content:space-around;
+    width: 25%;
+    /* border: 1px red solid; */
+    margin-right: 5%;
+}
+
+i{
+    color: #828485;
+}
+/* BOTON */
+button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #BEC1BB;
+    height: 30%;
+    min-height: 9em;
+    background-color: white;
+}
+
+button p{
+    background-color: #A491D2;
+    padding: 1em 3em;
+    color: white;
+    font-size: medium;
+}
+
+/* CONTACTOS */
+
+.card-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #BEC1BB;
+    height: 5em;
+    margin: 0;
+    width: 100%;
+
+}
+
+.card-contacto img {
+    width: 18%;
+}
+
+.card-izq-contacto{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    text-align: center;
+   /*  border: 1px solid red; */
+    margin-left: 10%;
+    flex-basis: 100%;
+}
+
+.card-der-contacto{
+    text-align: start;
+   /*  border: 1px solid violet; */
+    margin: 0;
+    margin-left: 1%;
+    font-size: 20px;
+    width: 100%;
+}
+
+.text-contacto{
+    text-align: start;
+    /* border: 1px solid violet; */
+    margin-left: 5%;
+    font-size: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.nombre-contacto{
+    font-weight: 500;
+    margin-left: 1%;
+    font-size:medium;
+    font-style: normal;
+    color: #444749;
+
+}
+
+.mensaje-contacto{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #444749;
+    font-size: 16px;
+}
+
+/* SECCIÓN MENU PRINCIPAL */
+
+
+.flex-der{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #E8EBE4;
+    gap: 2%;
+}
+
+.flex-der img{
+    width: 25%;
+    border-radius: 5%;
+}
+
+.flex-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  /*   border: 1px solid red; */
+    width: 100%;
+    font-size: x-large;
+    gap: 20%;
+    
+}
+.titulo-principal{
+    font-family:"Roboto" ;
+    font-size: 50px;
+    color: #1b1f21;
+}
+
+.texto-pantalla-principal{
+    font-family:"Roboto" ;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 18px;
+    color: #1b1f21;
+    font-weight: 400;
+}
